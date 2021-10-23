@@ -17,7 +17,10 @@ namespace Web.Commands
 
         public void Execute(IRobot robot)
         {
-            throw new System.NotImplementedException();
+            var getPosition = nextPositionGetters[robot.Orientation];
+            var position = getPosition(robot);
+
+            robot.SetPosition(position);
         }
     }
 }
