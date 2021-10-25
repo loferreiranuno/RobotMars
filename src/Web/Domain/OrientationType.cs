@@ -1,8 +1,10 @@
+using System.Linq;
+
 namespace Web.Domain
 {
     public enum OrientationType
     {
-        None,
+        Unknown,
         North,
         South,
         East,
