@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "adac8b51-a576-4354-85af-2f72e3d666c1",
+		"name": "RobotMars",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Send Instructions",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "1 3 \r\n1 1 E \r\nRFRFRFRF \r\n3 2 N \r\nFRRFLLFFRRFLL \r\n0 3 W \r\nLLFFFRFLFLR",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/input",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"input"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
