@@ -1,7 +1,8 @@
 using System;
 using System.Collections.Generic;
-using Web.Domain;
-using Web.Robot.Interfaces;
+using Web.Domain.Interfaces;
+using Web.Domain.Model;
+using Web.Domain.Types;
 
 namespace Web.Commands
 {

@@ -1,5 +1,5 @@
 using System;
-using Web.Domain;
+using Web.Domain.Types;
 
 namespace Web.Commands
 {

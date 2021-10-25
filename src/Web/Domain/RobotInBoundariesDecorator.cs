@@ -1,11 +1,12 @@
 using System;
-using Web.Grid.Interfaces;
-using Web.Grid.Types;
-using Web.Robot.Interfaces;
+using Web.Domain.Interfaces;
+using Web.Domain.Model;
+
+using Web.Domain.Types;
+using Web.Grid.Types; 
 
 namespace Web.Domain
 {
-
     public class RobotBoundariesAwareDecorator : IRobot
     {
         private IRobot inner;
@@ -53,6 +54,5 @@ namespace Web.Domain
                 onRobotLost(position);
                 return;
             }
-        }
-    }
+    }  }
 }

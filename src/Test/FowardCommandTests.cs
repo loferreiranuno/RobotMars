@@ -1,10 +1,10 @@
 using Xunit;
 using Web.Commands;
-using Web.Domain; 
-using Web.Robot.Interfaces;
+using Web.Domain.Types;
+using Web.Domain.Interfaces;
 
 namespace Test
-{ 
+{
     public class FowardCommandTests : BaseCommandTests
     {
         public IRobotCommand command; 

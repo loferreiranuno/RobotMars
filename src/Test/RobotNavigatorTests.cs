@@ -1,6 +1,7 @@
 using Web.Commands;
 using Web.Domain;
-using Web.Robot.Interfaces;
+using Web.Domain.Interfaces;
+using Web.Domain.Types;
 using Xunit;
 
 namespace Test

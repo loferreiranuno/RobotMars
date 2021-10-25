@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Web.Robot.Interfaces;
+using Web.Domain.Interfaces;
 
 namespace Web.Commands
 {

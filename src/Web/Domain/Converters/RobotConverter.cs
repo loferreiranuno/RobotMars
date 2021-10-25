@@ -1,3 +1,4 @@
+using Web.Domain.Model;
 using Web.Infrastructure;
 
 namespace Web.Domain.Converters

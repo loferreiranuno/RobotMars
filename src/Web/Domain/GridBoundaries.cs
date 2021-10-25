@@ -1,6 +1,7 @@
 using System.Collections.Concurrent;
 using System.Collections.Generic;
-using Web.Grid.Interfaces;
+using Web.Domain.Interfaces;
+using Web.Domain.Model;
 using Web.Grid.Types;
 
 namespace Web.Domain

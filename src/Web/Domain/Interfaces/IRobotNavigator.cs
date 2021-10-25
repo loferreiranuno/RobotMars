@@ -1,8 +1,7 @@
 using System.Collections.Generic;
-using Web.Grid.Interfaces;
-using Web.Robot.Interfaces;
+using Web.Domain.Types;
 
-namespace Web.Domain
+namespace Web.Domain.Interfaces
 {
     public interface IRobotNavigator
     {

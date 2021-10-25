@@ -1,9 +1,10 @@
 using System.Collections.Generic;
-using System.Linq;
-using Web.Grid.Interfaces;
-using Web.Robot.Interfaces;
+using System.Linq; 
 using Web.Grid.Types;
 using System;
+using Web.Domain.Interfaces;
+using Web.Domain.Types;
+using Web.Domain.Model;
 
 namespace Web.Domain
 {

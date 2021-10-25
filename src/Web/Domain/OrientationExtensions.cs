@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Web.Domain.Types; 
 
 namespace Web.Domain
 {

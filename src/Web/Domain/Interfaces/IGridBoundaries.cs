@@ -1,6 +1,4 @@
-using Web.Grid.Interfaces;
-
-namespace Web.Grid.Interfaces
+namespace Web.Domain.Interfaces
 {
     public interface IGridBoundaries : IGridBoundariesSetter, IGridBoundariesGetter
     { 

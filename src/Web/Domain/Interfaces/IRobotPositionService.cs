@@ -1,6 +1,7 @@
-using Web.Domain;
 
-namespace Web.Robot.Interfaces
+using Web.Domain.Model; 
+
+namespace Web.Domain.Interfaces
 {
     public interface IRobotPositionService 
     {        

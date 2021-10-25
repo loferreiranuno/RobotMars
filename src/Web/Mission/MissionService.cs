@@ -1,8 +1,9 @@
 using System.Collections.Generic;
 using System.Linq;
-using Web.Robot.Interfaces;
 using System;
 using Web.Infrastructure;
+using Web.Domain.Interfaces;
+using Web.Domain.Types;
 
 namespace Web.Domain
 {

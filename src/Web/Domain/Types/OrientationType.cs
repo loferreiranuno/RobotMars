@@ -1,6 +1,6 @@
 using System.Linq;
 
-namespace Web.Domain
+namespace Web.Domain.Types
 {
     public enum OrientationType
     {

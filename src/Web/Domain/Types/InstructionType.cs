@@ -1,4 +1,4 @@
-namespace Web.Domain
+namespace Web.Domain.Types
 {
     public enum InstructionType
     {

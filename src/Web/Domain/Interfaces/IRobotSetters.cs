@@ -1,6 +1,7 @@
-using Web.Domain;
+using Web.Domain.Model;
+using Web.Domain.Types;
 
-namespace Web.Robot.Interfaces
+namespace Web.Domain.Interfaces
 {
     public interface IRobotSetters {
         void SetOrientation(OrientationType orientation);

@@ -1,4 +1,5 @@
 using System.Linq;
+using Web.Domain.Types;
 using Web.Infrastructure;
 
 namespace Web.Domain.Converters

@@ -1,4 +1,4 @@
-namespace Web.Robot.Interfaces
+namespace Web.Domain.Interfaces
 {
     public interface IRobot : IRobotGetters, IRobotSetters
     {
